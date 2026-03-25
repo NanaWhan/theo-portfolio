@@ -1,12 +1,13 @@
 "use client";
 import { motion } from "framer-motion";
-import { FaInstagram, FaVimeo, FaYoutube } from "react-icons/fa";
+import { FaInstagram, FaWhatsapp } from "react-icons/fa";
+import { FaTiktok } from "react-icons/fa6";
 import { contact, socialLinks } from "@/data";
 
 const iconMap: Record<string, React.ReactNode> = {
   Instagram: <FaInstagram />,
-  Vimeo:     <FaVimeo />,
-  YouTube:   <FaYoutube />,
+  TikTok:    <FaTiktok />,
+  WhatsApp:  <FaWhatsapp />,
 };
 
 const Contact = () => {
@@ -47,13 +48,25 @@ const Contact = () => {
           ))}
         </h2>
 
-        {/* Email link — large, clean */}
+        {/* Email link */}
         <a
           href={`mailto:${contact.email}`}
-          className="inline-block text-film-text font-light hover:text-film-muted transition-colors duration-300 border-b border-film-text/10 hover:border-film-text/30 pb-1 w-fit"
+          className="inline-block text-film-text font-light hover:text-film-muted transition-colors duration-300 border-b border-film-text/10 hover:border-film-text/30 pb-1 w-fit mb-4"
           style={{ fontSize: "clamp(1rem, 2vw, 1.5rem)", letterSpacing: "-0.01em" }}
         >
           {contact.email}
+        </a>
+
+        {/* WhatsApp link */}
+        <a
+          href={contact.whatsapp}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-2 text-film-muted hover:text-film-text transition-colors duration-300 w-fit"
+          style={{ fontSize: "clamp(0.85rem, 1.5vw, 1.1rem)" }}
+        >
+          <FaWhatsapp className="text-lg" />
+          <span className="font-light">+233 24 005 6130</span>
         </a>
       </motion.div>
 

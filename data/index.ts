@@ -109,12 +109,13 @@ export const videos: VideoProject[] = [
 export const contact = {
   eyebrow: "Let's Create Something",
   heading: "Ready to tell\nyour story?",
-  email: "theo@email.com",
+  email: "tettehquarshie055@gmail.com",
+  whatsapp: "https://wa.me/233240056130",
 };
 
 // ---- Social Links ----
 export const socialLinks: SocialLink[] = [
-  { id: 1, name: "Instagram", url: "https://instagram.com" },
-  { id: 2, name: "Vimeo", url: "https://vimeo.com" },
-  { id: 3, name: "YouTube", url: "https://youtube.com" },
+  { id: 1, name: "Instagram", url: "https://www.instagram.com/mrj_parker" },
+  { id: 2, name: "TikTok",    url: "https://www.tiktok.com/@mrjcreatives" },
+  { id: 3, name: "WhatsApp",  url: "https://wa.me/233240056130" },
 ];
