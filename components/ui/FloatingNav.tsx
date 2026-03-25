@@ -14,7 +14,7 @@ export const FloatingNav = ({
       style={{ mixBlendMode: "difference" }}
     >
       <span className="text-white font-light text-base tracking-tight pointer-events-auto">
-        Theo.
+        Theophilus Tetteh Quarshie.
       </span>
       <nav className="flex items-center gap-5 md:gap-10 pointer-events-auto">
         {navItems.map((item, i) => (
