@@ -59,7 +59,7 @@ export const videos: VideoProject[] = [
     title: "Project One",
     category: "Short Film",
     description: "A cinematic journey through light and shadow.",
-    src: "/videos/1.mov",
+    src: "/videos/1.mp4",
   },
   {
     id: 2,
@@ -73,21 +73,21 @@ export const videos: VideoProject[] = [
     title: "Project Three",
     category: "Music Video",
     description: "Visual identity for an independent artist.",
-    src: "/videos/3.mov",
+    src: "/videos/3.mp4",
   },
   {
     id: 4,
     title: "Project Four",
     category: "Documentary",
     description: "A portrait of craft, culture, and tradition.",
-    src: "/videos/4.mov",
+    src: "/videos/4.mp4",
   },
   {
     id: 5,
     title: "Project Five",
     category: "Commercial",
     description: "Product storytelling with dramatic lighting.",
-    src: "/videos/5.mov",
+    src: "/videos/5.mp4",
   },
   {
     id: 6,
@@ -101,7 +101,7 @@ export const videos: VideoProject[] = [
     title: "Project Seven",
     category: "Short Film",
     description: "An intimate character study shot on location.",
-    src: "/videos/7.mov",
+    src: "/videos/7.mp4",
   },
 ];
 
