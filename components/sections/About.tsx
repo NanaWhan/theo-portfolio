@@ -14,7 +14,7 @@ const About = () => {
         <span className="label">About</span>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 md:min-h-screen">
+      <div className="grid grid-cols-1 md:grid-cols-2 md:min-h-[80vh] md:max-h-[900px]">
         {/* Left — image */}
         <motion.div
           className="relative min-h-[60vw] md:min-h-0"
@@ -31,6 +31,8 @@ const About = () => {
             className="object-cover object-center"
             style={{ filter: "grayscale(100%) contrast(1.05)" }}
             sizes="(max-width: 768px) 100vw, 50vw"
+            quality={95}
+            priority
           />
         </motion.div>
 
