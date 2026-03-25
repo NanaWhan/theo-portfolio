@@ -14,14 +14,11 @@ const About = () => {
         <span className="label">About</span>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2">
+      <div className="grid grid-cols-1 md:grid-cols-2 md:min-h-screen">
         {/* Left — image */}
         <motion.div
-          className="relative"
-          style={{
-            height: "clamp(360px, 60vh, 720px)",
-            borderRight: "1px solid rgba(240,237,232,0.07)",
-          }}
+          className="relative min-h-[60vw] md:min-h-0"
+          style={{ borderRight: "1px solid rgba(240,237,232,0.07)" }}
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
@@ -31,7 +28,7 @@ const About = () => {
             src={about.image}
             alt="Theo"
             fill
-            className="object-cover object-top"
+            className="object-cover object-center"
             style={{ filter: "grayscale(100%) contrast(1.05)" }}
             sizes="(max-width: 768px) 100vw, 50vw"
           />

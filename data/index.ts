@@ -37,7 +37,7 @@ export const about = {
     "I'm Theo, a videographer and editor with a passion for cinematic storytelling. From commercial campaigns to short films, I bring each project to life with intention and craft.",
     "With years behind the lens and in the edit suite, I collaborate with brands, musicians, and directors to produce work that doesn't just look good — it resonates.",
   ],
-  image: "/images/about.jpg",
+  image: "/images/me.jpg",
   skills: [
     "Cinematography",
     "Color Grading",
