@@ -103,6 +103,34 @@ export const videos: VideoProject[] = [
     description: "A breezy, sun-soaked showcase of Coastal Hide Airbnb — where location meets laid-back luxury.",
     src: "/videos/6.mp4",
   },
+  {
+    id: 8,
+    title: "Fusion Rave '23",
+    category: "Event Film",
+    description: "High-energy coverage of Fusion Rave 2023 — lights, movement, and atmosphere captured in full.",
+    src: "/videos/8.mp4",
+  },
+  {
+    id: 9,
+    title: "Neverland",
+    category: "Short Film",
+    description: "A dreamlike visual piece — imaginative storytelling with a cinematic eye.",
+    src: "/videos/9.mp4",
+  },
+  {
+    id: 10,
+    title: "The Joint Pizza",
+    category: "Commercial",
+    description: "A mouth-watering commercial for The Joint Pizza — fresh ingredients, bold flavours, great light.",
+    src: "/videos/10.mp4",
+  },
+  {
+    id: 11,
+    title: "ZediTech",
+    category: "Brand Film",
+    description: "A sharp brand ad for ZediTech — innovation, identity, and tech brought to life on screen.",
+    src: "/videos/11.mp4",
+  },
 ];
 
 // ---- Contact ----
