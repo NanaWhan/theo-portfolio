@@ -52,7 +52,7 @@ export const about = {
   ],
 };
 
-// ---- Work / Videos (ordered 1 → 7) ----
+// ---- Work / Videos ----
 export const videos: VideoProject[] = [
   {
     id: 1,
@@ -70,66 +70,66 @@ export const videos: VideoProject[] = [
   },
   {
     id: 3,
-    title: "Andos Lounge",
-    category: "Commercial",
-    description: "A mood-driven ad for Andos Lounge, capturing the ambience and energy of a premium dining experience.",
-    src: "/videos/3.mp4",
+    title: "ZediTech",
+    category: "Brand Film",
+    description: "A sharp brand ad for ZediTech — innovation, identity, and tech brought to life on screen.",
+    src: "/videos/11.mp4",
   },
   {
     id: 4,
-    title: "Torches Memories Restaurant",
-    category: "Commercial",
-    description: "Visual storytelling for Torches Memories Restaurant — food, feeling, and the magic of a shared meal.",
-    src: "/videos/5.mp4",
-  },
-  {
-    id: 5,
-    title: "DeHideout Airbnb Lounge",
-    category: "Commercial",
-    description: "An intimate look at the lounge experience within the DeHideout Airbnb — warm tones, thoughtful framing.",
-    src: "/videos/4.mp4",
-  },
-  {
-    id: 6,
-    title: "MRJ Creatives Studio",
-    category: "Brand Film",
-    description: "A brand identity film for MRJ Creatives Studio — creativity, craft, and a space built for makers.",
-    src: "/videos/7.mp4",
-  },
-  {
-    id: 7,
-    title: "Coastal Hide Airbnb",
-    category: "Real Estate",
-    description: "A breezy, sun-soaked showcase of Coastal Hide Airbnb — where location meets laid-back luxury.",
-    src: "/videos/6.mp4",
-  },
-  {
-    id: 8,
     title: "Fusion Rave '23",
     category: "Event Film",
     description: "High-energy coverage of Fusion Rave 2023 — lights, movement, and atmosphere captured in full.",
     src: "/videos/8.mp4",
   },
   {
+    id: 5,
+    title: "Andos Lounge",
+    category: "Commercial",
+    description: "A mood-driven ad for Andos Lounge, capturing the ambience and energy of a premium dining experience.",
+    src: "/videos/3.mp4",
+  },
+  {
+    id: 6,
+    title: "Torches Memories Restaurant",
+    category: "Commercial",
+    description: "Visual storytelling for Torches Memories Restaurant — food, feeling, and the magic of a shared meal.",
+    src: "/videos/5.mp4",
+  },
+  {
+    id: 7,
+    title: "DeHideout Airbnb Lounge",
+    category: "Commercial",
+    description: "An intimate look at the lounge experience within the DeHideout Airbnb — warm tones, thoughtful framing.",
+    src: "/videos/4.mp4",
+  },
+  {
+    id: 8,
+    title: "MRJ Creatives Studio",
+    category: "Brand Film",
+    description: "A brand identity film for MRJ Creatives Studio — creativity, craft, and a space built for makers.",
+    src: "/videos/7.mp4",
+  },
+  {
     id: 9,
+    title: "Coastal Hide Airbnb",
+    category: "Real Estate",
+    description: "A breezy, sun-soaked showcase of Coastal Hide Airbnb — where location meets laid-back luxury.",
+    src: "/videos/6.mp4",
+  },
+  {
+    id: 10,
     title: "Neverland",
     category: "Short Film",
     description: "A dreamlike visual piece — imaginative storytelling with a cinematic eye.",
     src: "/videos/9.mp4",
   },
   {
-    id: 10,
+    id: 11,
     title: "The Joint Pizza",
     category: "Commercial",
     description: "A mouth-watering commercial for The Joint Pizza — fresh ingredients, bold flavours, great light.",
     src: "/videos/10.mp4",
-  },
-  {
-    id: 11,
-    title: "ZediTech",
-    category: "Brand Film",
-    description: "A sharp brand ad for ZediTech — innovation, identity, and tech brought to life on screen.",
-    src: "/videos/11.mp4",
   },
 ];
 
