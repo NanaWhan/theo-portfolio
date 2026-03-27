@@ -23,7 +23,7 @@ export const navItems = [
 // ---- Hero ----
 export const hero = {
   eyebrow: "Videographer & Editor",
-  name: "Theo",
+  name: "Mrj Creatives",
   tagline: "Cinematic stories that move people",
   videoSrc: "/videos/hero.mp4",
   ctaLink: "#work",
@@ -143,6 +143,6 @@ export const contact = {
 // ---- Social Links ----
 export const socialLinks: SocialLink[] = [
   { id: 1, name: "Instagram", url: "https://www.instagram.com/mrj_parker" },
-  { id: 2, name: "TikTok",    url: "https://www.tiktok.com/@mrjcreatives" },
-  { id: 3, name: "WhatsApp",  url: "https://wa.me/233240056130" },
+  { id: 2, name: "TikTok", url: "https://www.tiktok.com/@mrjcreatives" },
+  { id: 3, name: "WhatsApp", url: "https://wa.me/233240056130" },
 ];
