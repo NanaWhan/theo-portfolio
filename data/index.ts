@@ -23,7 +23,7 @@ export const navItems = [
 // ---- Hero ----
 export const hero = {
   eyebrow: "Videographer & Editor",
-  name: "Mrj Creatives",
+  name: "Theo",
   tagline: "Cinematic stories that move people",
   videoSrc: "/videos/hero.mp4",
   ctaLink: "#work",
