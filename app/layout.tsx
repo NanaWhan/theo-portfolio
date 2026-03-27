@@ -12,7 +12,7 @@ const interTight = Inter_Tight({
 });
 
 export const metadata: Metadata = {
-  title: "Theo — Videographer & Editor",
+  title: "Mrj — Videographer & Editor",
   description: "Cinematic videography and editing. Visual narratives that move people.",
 };
 
