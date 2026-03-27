@@ -119,7 +119,7 @@ export const videos: VideoProject[] = [
   {
     id: 10,
     title: "Neverland",
-    category: "Short Film",
+    category: "Motion Graphics",
     description: "A dreamlike visual piece — imaginative storytelling with a cinematic eye.",
     src: "/videos/9.mp4",
   },
